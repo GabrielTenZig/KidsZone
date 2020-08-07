@@ -1,0 +1,132 @@
+body{
+  background-image: url("../img/FONDOS/fondoAzulCielo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/****************************   BOTON MENU   ***************************/
+.botonMenu{
+  border: 1px solid white;
+  width: 100px;
+  height: 100px;
+  border-radius: 0px 0px 20px 20px;
+  overflow: hidden;
+  position: absolute;
+  margin-left: 74%;
+  margin-top: -1%;
+  box-shadow: -3px 3px;
+}
+.botonMenu:hover{
+  box-shadow: 1px 1px 0px;
+}
+/******************************************/
+header{
+  /* border: 1px solid black; */
+  padding: 5px;
+  height: 150px;
+}
+header img{
+  border-radius: 10px;
+  /* border: 2px solid gray; */
+  margin-left: 5px;
+  width: 24%;
+  height: 130px;
+}
+
+.imgGr{
+  animation-name: animNube;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
+  margin-top: 0%;
+}
+@keyframes animNube{
+  from{
+    margin-top: 0%;
+  }
+  to{
+    margin-top: 0.5%;
+  }
+}
+/*########################   ZONA DEL VIDEO   ######################*/
+.zonaVideo{
+  margin-top: 20px;
+  width: 100%;
+  height: 350px;
+}
+.zonaVideo img{
+  width: 25%;
+  height: 90%;
+}
+.zonaVideo video{
+  width: 49%;
+  height: 90%;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #70d4d4
+}
+
+/*#######################   ZONA DE VOCALES   ######################*/
+.zonaDeVocales{
+  width: 100%;
+  /* height: 2000px; */
+  /* border: 1px solid black; */
+  text-align: center;
+}
+.letra{
+  width: 20%;
+  height: 250px;
+  display: block;
+  margin-top: 5px;
+  margin-left: 40%;
+  border: 2px solid transparent;
+  box-shadow: 1px 1px 4px;
+  border-radius: 90%;
+}
+.contenedorDeElementosDeVocales{
+  /* border: 1px solid black; */
+}
+.primerElemento{
+  margin-left: 6%;
+  margin-top: 2%;
+  width: 16%;
+  height: 200px;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: white;
+}
+.letraElementos{
+  margin-left: 11%;
+  margin-top: 2%;
+  width: 16%;
+  height: 200px;
+  display: inline-block;
+  /* margin-top: 5px; */
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: white;
+}
+.vocal{
+  margin-top: 50px;
+  /* border: 1px solid black; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#correcto{
+  display: none;
+}
+
+
+
+/*  */

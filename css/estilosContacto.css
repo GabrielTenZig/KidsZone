@@ -1,0 +1,170 @@
+body{
+    background-color: #62f079;
+}
+#contenedor{
+  background-color: #fffe82;
+  border: 5px solid black;
+  border-radius: 7px;
+  box-shadow: 1px 1px;
+
+  width: 99%;
+  height: 600px;
+  text-align:center;
+}
+/***********************************/
+/*           FORMULARIO            */
+/***********************************/
+#formulario{
+  border: 3px solid black;
+  border-radius: 7px;
+  box-shadow: 1px 1px;
+
+  width: 40%;
+  height: 500px;
+  margin: 10px;
+  display: inline-block;
+  margin-top: 3%;
+  margin-right: 5%;
+  /* text-align: center; */
+}
+/*******************************************************/
+/*******************************************************/
+#formIzq{
+  height: 70%;
+  width: 70%;
+  /* border: 1px solid black; */
+  overflow: hidden;
+  padding: 5px;
+  display: inline-block;
+}
+#formIzq *{
+  margin: auto;
+  margin-top: 3%;
+}
+/******************************/
+#numeroAleatorio {
+  /* background-color: blue; */
+  /* overflow: hidden; */
+  width: 72%;
+  height: 10%;
+  /* text-align: center; */
+  vertical-align: top;
+}
+#numAleatImg{
+  display:inline-block;
+  /* background-color: blue; */
+  /* border: 1px solid black; */
+  width: 40%;
+  height: 93%;
+  margin-right: : 5%;
+  /* margin-top: 2%; */
+  /* margin-left: 5px; */
+
+  /* margin: auto; */
+  vertical-align: top;
+}
+#numAleatInput{
+  display:inline-block;
+  background-color: blue;
+  /* border: 1px solid black; */
+  width: 40%;
+  height: 93%;
+  margin-left: 100px;
+  /* margin-top: 2%; */
+  /* margin-left: 5px; */
+
+  /* margin: auto; */
+  vertical-align: top;
+}
+#numeroAleatorio div{
+  display:inline-block;
+  /* background-color: blue; */
+  /* border: 1px solid black; */
+  width: 40%;
+  height: 93%;
+  margin-left: 2%;
+  /* margin-top: 2%; */
+  /* margin-left: 5px; */
+  margin: auto;
+  vertical-align: top;
+}
+#numeroAleatorio div *{
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+  /* border-radius: 5px; */
+  /* box-shadow: 1px 1px; */
+  /* margin-top: auto; */
+}
+/*****************************/
+#inputNumAleatorio{
+  display: inline-block;
+  vertical-align: top;
+}
+/****************************/
+#formulario p{
+
+}
+#formulario input{
+  display: block;
+}
+#formulario textarea{
+  display: block;
+}
+/*******************************************************/
+/*******************************************************/
+#formDer{
+  vertical-align: top;
+  width: 25%;
+  height: 72%;
+  /* border: 1px solid black; */
+  /* background-color: red; */
+  display: inline-block;
+  /* padding-bottom: 100px; */
+  /* background-color: red; */
+}
+#formDer input{
+  margin: auto;
+  margin-top: 100%;
+}
+#fomrText{
+  /* background-color: blue; */
+  /* width: 100%; */
+  /* height: 200px; */
+  /* background-color: red; */
+  /* border: 1px solid black; */
+  padding: 20px;
+}
+#formText p{
+  /* background-color: red; */
+  font-family: cursive;
+  font-size: 14px;
+  text-align: justify;
+  margin: auto;
+  padding: 20px;
+  padding-top: 0px;
+}
+/***********************************/
+/*              MAPA               */
+/***********************************/
+#mapa {
+  border: 3px solid black;
+  border-radius: 7px;
+  box-shadow: 1px 1px;
+
+  width: 40%;
+  height: 500px;
+  margin: 10px;
+  display: inline-block;
+  margin-top: 3%;
+  margin-right: 5%;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+
+img{
+  width: 550px;
+  height: 500px;
+}

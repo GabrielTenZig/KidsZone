@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Pagina CONTACTO del sitio">
+    <meta name="author" content="Tenorio Ziga Jesus Gabriel">
+    <meta name="keywords" content="CONTACTO, HTML5, CSS3">
+    <link rel="stylesheet" href="css/estilosContacto.css">
+    <title>Contacto</title>
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+      <div id="contenedor">
+        <div id="formulario">
+          <p>Formulario de contacto</p>
+          <div id="formIzq">
+            <input type="text" name="v_full_name" placeholder="Nombre Completo" value="" maxlength="40" size="40" required="required">
+            <input type="text" name="v_asunto" value="" placeholder="Asunto" maxlength="50" size="40">
+            <input type="email" name="v_correo" value="" placeholder="Email @" required="required" size="40">
+            <textarea name="v_descripcion" rows="8" cols="34" placeholder="Descripcion del mensaje"></textarea>
+            <div id="numeroAleatorio">
+              <div id="numAleatImg"> <img src="img/numeroAleatorio.jpg" alt="fail"> </div>
+              <div id="numAleatInput"> <input type="text" name="v_numAleatorio" value="" placeholder="Repetirlo" required="required"> </div>
+            </div>
+          </div>
+          <div id="formDer">
+            <input type="submit" name="v_btn" value="Enviar">
+            <a href="index.html"> <button type="button" name="">Cerrar</button> </a>
+          </div>
+          <div id="formText">
+            <p>*Para poder enviar el mensaje es necesario saber que no eres un roobot, favor de repetir el número brindado</p>
+          </div>
+
+        </div>
+        <div id="mapa">
+          <a href="img/mapa.jpg"> <img src="img/mapa.jpg" alt="no image"> </a>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

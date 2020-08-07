@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Aprende a Sumar</title>
+    <meta name="author" content="Tenorio Ziga Jesus Gabriel">
+    <meta name="description" content="Pagina para aorender a sumar con personajes">
+    <meta name="keywords" content="APRENDER, SUMAR, NIÑOS">
+    <link rel="stylesheet" href="css/resta.css">
+  </head>
+  <body>
+    <div class="cuadroExterno">
+      <div class="cuadroInterno">
+        <div class="botonMenu">
+          <a href="index.html">
+            <img src="img/iconoHome.jpg" alt="homeIcon" class="myImage">
+          </a>
+        </div>
+
+        <div class="zonaDeSuma">
+          <div class="elementoSuma primerNumeroDigitoIzq">
+            <img src="img/num9.png" class="myImage elementoZonaSumaImage">
+          </div>
+          <div class="elementoSuma segundoNumeroDigitoDerecho">
+            <img src="img/num4.png" class="myImage elementoZonaSumaImage">
+          </div>
+          <div class="elementoSuma signoSuma">
+            <img src="img/signoResta.png" class="myImage elementoZonaSumaImage">
+          </div>
+          <div class="barraSuma">
+            <!-- <img src="img/barraSuma.jpg" class="myImage"> -->
+          </div>
+          <div class="zonaDeResultado">
+            <img id="error" src="img/error.png" alt="" width="30%" height="100%">
+            <img id="bien" src="img/bien.png" alt="" width="30%" height="100%">
+          </div>
+        </div>
+
+        <div class="zonaDeRespuestas">
+          <a href="javascript:cambiarAlPersonaje('p2','mal')"> <img src="img/num7.png" width="23%" height="90%"> </a>
+          <a href="javascript:cambiarAlPersonaje('p1','correcto')"> <img id="correctAnswer" src="img/num5.png" width="23%" height="90%"> </a>
+          <a href="javascript:cambiarAlPersonaje('p3','mal')"> <img src="img/num8.png" width="23%" height="90%"> </a>
+          <a href="javascript:cambiarAlPersonaje('p2','mal')"> <img src="img/num6.png" width="23%" height="90%"> </a>
+        </div>
+
+        <div class="zonaDePersonaje">
+          <img id="p1" src="img/PersonajeFeliz.jpg" width="100%" height="100%">
+          <img id="p2" src="img/PersonajeTriste2.jpg" width="100%" height="100%">
+          <img id="p3" src="img/PersonajeMolesto.jpg" width="100%" height="100%">
+          <img id="p4" src="img/PersonajeMeEncanta.jpg" width="100%" height="100%">
+        </div>
+        <div class="sombraPersonaje"></div>
+
+        <!-- <div class="seleccionDePesonaje">
+          <div class="personaje"> <a href="javascript:cambiarAlPersonaje('p1','')"> <img src="img/0sumaPersonajeFeliz.jpg" class="myImage"> </a> </div>
+          <div class="personaje"> <a href="javascript:cambiarAlPersonaje('p2'),''"> <img src="img/sumaPersonajeTriste.jpg" class="myImage"> </a> </div>
+          <div class="personaje"> <a href="javascript:cambiarAlPersonaje('p3'),''"> <img src="img/sumaPersonajeMolesto.jpg" class="myImage"> </a> </div>
+          <div class="personaje"> <a href="javascript:cambiarAlPersonaje('p4'),''"> <img src="img/sumaPersonajeMeEncanta.jpg" class="myImage"> </a> </div>
+        </div> -->
+
+        <!-- <div class="seleccionDePesonaje">
+          <div class="personaje"> <a href=""> <img src="img/.jpg" class="myImage"> </a> </div>
+          <div class="personaje"> <a href=""> <img src="img/.jpg" class="myImage"> </a> </div>
+          <div class="personaje"> <a href=""> <img src="img/.jpg" class="myImage"> </a> </div>
+          <div class="personaje"> <a href=""> <img src="img/.jpg" class="myImage"> </a> </div>
+        </div> -->
+
+      </div>
+    </div>
+
+    <audio id="mal" controls>
+      <source type="audio/mp3" src="sonido/error.mp3">
+    </audio>
+    <audio id="correcto" controls>
+      <source type="audio/mp3" src="sonido/correcto.mp3">
+    </audio>
+
+    <script src="js/code.js"></script>
+  </body>
+</html>

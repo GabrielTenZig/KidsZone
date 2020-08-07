@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="APRENDER, NIÑOS, KINDER, COLORES">
+    <meta name="description" content="Sitio web para aprendisaje escolar infantil">
+    <meta name="author" content="Tenrio Ziga Jesus Gabriel">
+    <link rel="stylesheet" href="css/colorear.css">
+    <title>KidsZone a Colorear</title>
+  </head>
+  <body>
+    <div class="barrasIzquierdas">
+      <div class="barraIzq bAzul" ></div>
+      <div class="barraIzq bRoja"></div>
+      <div class="barraIzq bAmarilla"></div>
+      <div class="barraIzq bVerde"></div>
+      <div class="barraIzq bNaranja"></div>
+      <div class="barraIzq bAzul"></div>
+      <div class="barraIzq bRoja"></div>
+      <div class="barraIzq bAmarilla"></div>
+      <div class="barraIzq bVerde"></div>
+      <div class="barraIzq bNaranja"></div>
+    </div>
+    <div class="barrasDerechas">
+      <div class="barraDer bAzul" ></div>
+      <div class="barraDer bRoja"></div>
+      <div class="barraDer bAmarilla"></div>
+      <div class="barraDer bVerde"></div>
+      <div class="barraDer bNaranja"></div>
+      <div class="barraDer bAzul"></div>
+      <div class="barraDer bRoja"></div>
+      <div class="barraDer bAmarilla"></div>
+      <div class="barraDer bVerde"></div>
+      <div class="barraDer bNaranja"></div>
+    </div>
+
+    <div class="botonMenu">
+      <a href="index.html">
+        <img src="img/iconoHome.jpg" alt="homeIcon" width="100%" height="100%">
+      </a>
+    </div>
+
+    <div class="contenidoCentral">
+      <div class="titulo">
+        <img src="img/colores/bienvenido.png" alt="" width="100%" height="100%">
+      </div>
+      <div class="contenedorDeColores">
+        <div class="rojoBoton boton">
+          <a href="javascript:mostrarColor('rojo')"> <img src="img/colores/rojo.png" alt="" width="100%" height="100%"> </a>
+        </div>
+        <div class="azulBoton boton">
+          <a href="javascript:mostrarColor('azul')"> <img src="img/colores/azul.jpg" alt="" width="100%" height="100%"> </a>
+        </div>
+        <div class="verdeBoton boton">
+          <a href="javascript:mostrarColor('verde')"> <img src="img/colores/verde.png" alt="" width="100%" height="100%"> </a>
+        </div>
+        <div class="naranjaBoton boton">
+          <a href="javascript:mostrarColor('naranja')"> <img src="img/colores/naranja.png" alt="" width="100%" height="100%"> </a>
+        </div>
+        <div class="amarilloBoton boton">
+          <a href="javascript:mostrarColor('amarillo')"> <img src="img/colores/amarillo.jpg" alt="" width="100%" height="100%"> </a>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <a href="javascript:mostrarColor('nada')">
+      <div id="divVerde" class="divShowColor">
+        <img src="img/colores/verdeImg.jpg" alt="" width="100%" height="100%">
+      </div>
+      <div id="divRojo" class="divShowColor">
+        <a href="javascript:mostrarColor('nadaR')">
+          <video id="vidRojo" preload src="video/rojo.mp4" width="100%" height="100%">
+          </video>
+        </a>
+        <!-- <img src="img/colores/rojoImg.jpg" alt="" width="100%" height="100%"> -->
+      </div>
+      <div id="divAzul" class="divShowColor">
+        <a href="javascript:mostrarColor('nadaA')">
+          <video id="vidAzul" preload src="video/azul.mp4" width="100%" height="100%">
+          </video>
+            <!-- <img src="img/colores/azulImg.jpg" alt="" width="100%" height="100%"> -->
+        </a>
+      </div>
+      <div id="divAmarillo" class="divShowColor">
+        <a href="javascript:mostrarColor('nadaAm')">
+          <video id="vidAmarillo" src="video/amarillo.mp4" preload id="vidAmarillo" width="100%" height="100%">
+          </video>
+        </a>
+        <!-- <img src="img/colores/amarilloImg.jpg" alt="" width="100%" height="100%"> -->
+      </div>
+      <div id="divNaranja" class="divShowColor">
+        <a href="javascript:mostrarColor('nada')">
+          <img src="img/colores/naranjaImg.jpg" alt="" width="100%" height="100%">
+        </a>
+      </div>
+      <div id="divRosa" class="divShowColor">
+        <img src="img/colores/rosaImg.jpg" alt="" width="100%" height="100%">
+      </div>
+    </a>
+
+    <audio id="sonidoColor" controls>
+      <source type="audio/mp3" src="sonido/colorSelect.mp3">
+    </audio>
+
+  </body>
+  <script src="js/codeColores.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  -->
